@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mybluetoothchat.ChatActivity">
+    <item android:id="@+id/action_connect" android:title="建立蓝牙连接"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_show_bluetooth" android:title="让本设备可见"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
